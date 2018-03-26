@@ -1,0 +1,17 @@
+node {
+   
+   stage('SCM Checkout') { // for display purposes
+      // Get some code from a GitHub repository
+      git 'https://github.com/vishal2082/maven.git'
+     
+   }
+  
+   
+   stage('Archival') {
+    // some block
+   }
+   
+    stage('Deploy to Dev') {
+    echo 'Deploy to Dev' 
+   }
+}
