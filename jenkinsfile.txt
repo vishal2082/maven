@@ -2,7 +2,7 @@ node {
    
    stage('SCM Checkout') { // for display purposes
       // Get some code from a GitHub repository
-      git 'https://github.com/vishal2082/maven.git'
+      git 'https://github.com/InfinityVegas/wannacry.git'
      
    }
    stage('Maven Build') {
